@@ -1,0 +1,16 @@
+{
+  "name": "Amblyopia",
+  "description": "Make the current page red and blue",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "Make this page red and blue."
+  },
+  "manifest_version": 2
+}
+
